@@ -3,14 +3,14 @@
 
 Grid component for React
 
-| Prop                 | Default | Values                                                                   |
-| :------------------- |:------- | :----------------------------------------------------------------------- |
-| gridItems            | none    | Object of data                                                           |
-| gridItemColour       | #000000 | Any HEX colour code for the text colour                                  |
-| gridItemFill         | #ffffff | Any HEX colour code for the background colour                            |
-| gridItemBorder       | false   | True or False value for displaying a border around each item in the grid |
-| gridItemBorderColour | none    | Any HEX colour code for the border colour                                |
-| gridItemAlignment    | left    | Alignment of the data in each item (left, right, center)                 |
+| Prop                 | Default | Values                                      |
+| :------------------- |:------- | :------------------------------------------ |
+| gridItems            | none    | Data object                                 |
+| gridItemColour       | #000000 | HEX colour code for text                    |
+| gridItemFill         | #ffffff | HEX colour code for background              |
+| gridItemBorder       | false   | True or False value for item border         |
+| gridItemBorderColour | none    | HEX colour code border colour               |
+| gridItemAlignment    | left    | Alignment of the data (left, right, center) |
 
 ```
 const gridData = [
