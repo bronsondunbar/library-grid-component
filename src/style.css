@@ -1,0 +1,42 @@
+/* Screen sizes */
+/* Grid */
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0; }
+  .grid .item {
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 150px;
+    min-width: 15%;
+    margin: 15px;
+    padding: 15px;
+    transition: all 0.3s; }
+    .grid .item h1, .grid .item h2, .grid .item h3, .grid .item h4 {
+      text-align: center;
+      font-weight: 400;
+      width: 100%; }
+    .grid .item form, .grid .item p, .grid .item a, .grid .item ul, .grid .item label {
+      width: 100%; }
+    .grid .item button {
+      clear: both; }
+    .grid .item i {
+      text-align: center;
+      width: 100%;
+      margin: 0 0 10px; }
+    .grid .item > div {
+      height: 100%;
+      width: 100%; }
+    .grid .item .grid {
+      width: 100%; }
+    @media (max-width: 1024px) {
+      .grid .item {
+        min-width: 100%; } }
+  .grid .border {
+    border: 1px solid #eeeeee; }
+
+body {
+  font-family: Arial, 'Sans Serif'; }
