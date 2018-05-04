@@ -3,6 +3,10 @@
 
 Grid component for React
 
+```
+npm install --save library-grid-component
+```
+
 | Prop                 | Default | Values                                      |
 | :------------------- |:------- | :------------------------------------------ |
 | gridItems            | none    | Data object                                 |
