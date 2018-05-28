@@ -17,17 +17,21 @@ npm install --save library-grid-component
 | gridItemAlignment    | left    | Alignment of the data (left, right, center) |
 
 ```
-const gridData = [
-  { data: 'Item' },
-  { data: 'Item' },
-  { data: 'Item' }
-]
+render () {
+	const gridData = [
+	  { data: 'Item' },
+	  { data: 'Item' },
+	  { data: 'Item' }
+	]
 
-<GridComponent
-  gridItems={gridData}
-  gridItemColour="#ffffff"
-  gridItemFill="#2bbde0"
-  gridItemBorder={true}
-  gridItemBorderColour="#2e3c54"
-  gridItemAlignment="center" />
+	return (
+		<GridComponent
+		  gridItems={gridData}
+		  gridItemColour="#ffffff"
+		  gridItemFill="#2bbde0"
+		  gridItemBorder={true}
+		  gridItemBorderColour="#2e3c54"
+		  gridItemAlignment="center" />
+	)
+}
  ```
