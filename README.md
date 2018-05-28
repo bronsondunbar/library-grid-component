@@ -19,19 +19,19 @@ npm install --save library-grid-component
 ```
 render () {
 	const gridData = [
-	  { data: 'Item' },
-	  { data: 'Item' },
-	  { data: 'Item' }
+		{ data: 'Item' },
+		{ data: 'Item' },
+		{ data: 'Item' }
 	]
 
 	return (
 		<GridComponent
-		  gridItems={gridData}
-		  gridItemColour="#ffffff"
-		  gridItemFill="#2bbde0"
-		  gridItemBorder={true}
-		  gridItemBorderColour="#2e3c54"
-		  gridItemAlignment="center" />
+			gridItems={gridData}
+			gridItemColour="#ffffff"
+			gridItemFill="#2bbde0"
+			gridItemBorder={true}
+			gridItemBorderColour="#2e3c54"
+			gridItemAlignment="center" />
 	)
 }
  ```
