@@ -7,14 +7,14 @@ Grid component for React
 npm install --save library-grid-component
 ```
 
-| Prop                 | Default | Values                                      |
-| :------------------- |:------- | :------------------------------------------ |
-| gridItems            | none    | Data object                                 |
-| gridItemColour       | #000000 | HEX colour code for text                    |
-| gridItemFill         | #ffffff | HEX colour code for background              |
-| gridItemBorder       | false   | True or False value for item border         |
-| gridItemBorderColour | none    | HEX colour code border colour               |
-| gridItemAlignment    | left    | Alignment of the data (left, right, center) |
+| Prop                 | Values                                  |
+| :------------------- | :-------------------------------------- |
+| gridItems            | Object                                  |
+| gridItemColour       | HEX colour code                         |
+| gridItemFill         | HEX colour code                         |
+| gridItemBorder       | true or false                           |
+| gridItemBorderColour | HEX colour code                         |
+| gridItemAlignment    | Alignment of data (left, right, center) |
 
 ```
 render () {
