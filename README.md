@@ -8,12 +8,12 @@ Install and save component as a dependency
 ```
 npm install --save library-grid-component
 ```
-Import component into your app.
+
+Import component into your app
 
 ```
 import Grid from 'library-grid-component'
 ```
-
 
 Create an object with the key being data
 
@@ -25,6 +25,7 @@ const gridData = [
 ]
 
 ```
+
 Render the component with the object we created as well as any other props that are needed
 
 ```
