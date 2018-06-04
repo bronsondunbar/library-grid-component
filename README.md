@@ -15,7 +15,7 @@ Import component into your app
 import Grid from 'library-grid-component'
 ```
 
-Create an object with the key being data
+Create an array of objects with the key being data
 
 ```
 const gridData = [
