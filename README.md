@@ -3,18 +3,29 @@
 
 Grid component for React
 
+Install and save component as a dependency
+
 ```
 npm install --save library-grid-component
 ```
+Import component into your app.
 
-| Prop                 | Values                                  |
-| :------------------- | :-------------------------------------- |
-| gridItems            | Object                                  |
-| gridItemColour       | HEX colour code                         |
-| gridItemFill         | HEX colour code                         |
-| gridItemBorder       | true or false                           |
-| gridItemBorderColour | HEX colour code                         |
-| gridItemAlignment    | Alignment of data (left, right, center) |
+```
+import Grid from 'library-grid-component'
+```
+
+
+Create an object with the key being data
+
+```
+const gridData = [
+	{ data: 'Item' },
+	{ data: 'Item' },
+	{ data: 'Item' }
+]
+
+```
+Render the component with the object we created as well as any other props that are needed
 
 ```
 render () {
@@ -35,3 +46,12 @@ render () {
 	)
 }
  ```
+
+| Prop                 | Values                                  |
+| :------------------- | :-------------------------------------- |
+| gridItems            | Object                                  |
+| gridItemColour       | HEX colour code                         |
+| gridItemFill         | HEX colour code                         |
+| gridItemBorder       | true or false                           |
+| gridItemBorderColour | HEX colour code                         |
+| gridItemAlignment    | Alignment of data (left, right, center) |
