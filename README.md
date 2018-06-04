@@ -6,18 +6,23 @@ Grid component for React
 Install and save component as a dependency
 
 ```
+
 npm install --save library-grid-component
+
 ```
 
 Import component into your app
 
 ```
+
 import Grid from 'library-grid-component'
+
 ```
 
 Create an array of objects with the key being data
 
 ```
+
 const gridData = [
 	{ data: 'Item' },
 	{ data: 'Item' },
@@ -29,6 +34,7 @@ const gridData = [
 Render the component with the object array we created as well as any other props that are needed
 
 ```
+
 render () {
 	const gridData = [
 		{ data: 'Item' },
@@ -46,7 +52,8 @@ render () {
 			gridItemAlignment="center" />
 	)
 }
- ```
+
+```
 
 | Prop                 | Values                                  |
 | :------------------- | :-------------------------------------- |
