@@ -26,7 +26,7 @@ const gridData = [
 
 ```
 
-Render the component with the object we created as well as any other props that are needed
+Render the component with the object array we created as well as any other props that are needed
 
 ```
 render () {
