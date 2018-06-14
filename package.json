@@ -1,6 +1,6 @@
 {
   "name": "library-grid-component",
-  "version": "1.0.20",
+  "version": "1.0.21",
   "description": "Grid component for React",
   "main": "./lib/Grid.js",
   "license": "MIT",
@@ -26,5 +26,9 @@
     "style-loader": "^0.21.0",
     "webpack": "^4.6.0",
     "webpack-cli": "^2.0.14"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6",
+    "dompurify": "^1.0.4"
   }
 }
