@@ -1,6 +1,6 @@
 {
   "name": "library-grid-component",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "Grid component for React",
   "main": "./lib/Grid.js",
   "license": "MIT",

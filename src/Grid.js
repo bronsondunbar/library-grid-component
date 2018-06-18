@@ -29,14 +29,18 @@ const GridComponent = ({ gridItems, gridItemMinWidth, gridItemLayout, gridItemCo
     'boxShadow': gridItemShadow === true ? '0px 3px 5px 0px rgba(0, 0, 0, 0.22)' : 'none' 
   }
 
-  const items = gridItems.map(function (item, index) {
+  const items = Object.keys(gridItems).map(items => {
     return (
-      <div
-        className="item"
-        key={index}
-        style={gridItemStyle}
-        dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(item.data)}} >
-      </div>
+      Object.values(gridItems[items]).map((item, index) => {
+        return (
+          <div
+            className="item"
+            key={index}
+            style={gridItemStyle}
+            dangerouslySetInnerHTML={{__html: DOMPurify.sanitize(item)}} >
+          </div>
+        )
+      })
     )
   })
 
