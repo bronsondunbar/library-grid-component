@@ -58,15 +58,15 @@ render () {
 
 ```
 
-| Prop                 | Values                                  |
-| :------------------- | :-------------------------------------- |
-| gridItems            | Object                                  |
-| gridItemMinWidth     | Min width for each item                 |
-| gridItemLayout       | 1x1, 2x1, 3x1, 4x1                      |
-| gridItemColour       | HEX colour code                         |
-| gridItemFill         | HEX colour code                         |
-| gridItemShadow       | true or false                           |
-| gridItemBorder       | true or false                           |
-| gridItemBorderColour | HEX colour code                         |
-| gridItemBorderRadius | Pixels                                  |
-| gridItemAlignment    | Alignment of data (left, right, center) |
+| Prop                 | Values                  |
+| :------------------- | :---------------------- |
+| gridItems            | Object                  |
+| gridItemMinWidth     | Min width for each item |
+| gridItemLayout       | 1x1, 2x1, 3x1, 4x1      |
+| gridItemColour       | HEX colour code         |
+| gridItemFill         | HEX colour code         |
+| gridItemShadow       | true or false           |
+| gridItemBorder       | true or false           |
+| gridItemBorderColour | HEX colour code         |
+| gridItemBorderRadius | Pixels                  |
+| gridItemAlignment    | left, right, center     |
