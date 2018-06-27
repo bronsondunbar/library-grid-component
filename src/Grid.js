@@ -4,7 +4,7 @@ import DOMPurify from 'dompurify'
 
 import './style.css'
 
-const GridComponent = ({ gridItems, gridItemMinWidth, gridItemLayout, gridItemColour, gridItemFill, gridItemBorder, gridItemBorderColour, gridItemBorderRadius, gridItemShadow, gridItemAlignment }) => {
+const GridComponent = ({ gridData, gridItemMinWidth, gridItemLayout, gridItemColour, gridItemFill, gridItemBorder, gridItemBorderColour, gridItemBorderRadius, gridItemShadow, gridItemAlignment }) => {
 
   let gridClass = classNames ({
     grid: true,
@@ -29,9 +29,9 @@ const GridComponent = ({ gridItems, gridItemMinWidth, gridItemLayout, gridItemCo
     'boxShadow': gridItemShadow === true ? '0px 3px 5px 0px rgba(0, 0, 0, 0.22)' : 'none' 
   }
 
-  const items = Object.keys(gridItems).map(items => {
+  const items = Object.keys(gridData).map(items => {
     return (
-      Object.values(gridItems[items]).map((item, index) => {
+      Object.values(gridData[items]).map((item, index) => {
         return (
           <div
             className="item"

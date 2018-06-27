@@ -44,7 +44,7 @@ render () {
 
 	return (
 		<GridComponent
-			gridItems={data}
+			gridData={gridData}
 			gridItemMinWidth="100"
 			gridItemLayout="1x1"
 			gridItemColour="#262626"
@@ -60,7 +60,7 @@ render () {
 
 | Prop                 | Values                  |
 | :------------------- | :---------------------- |
-| gridItems            | Object                  |
+| gridData             | Object                  |
 | gridItemMinWidth     | Min width for each item |
 | gridItemLayout       | 1x1, 2x1, 3x1, 4x1      |
 | gridItemColour       | HEX colour code         |
